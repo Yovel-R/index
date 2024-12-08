@@ -1,0 +1,131 @@
+body {
+    background-image: url(back.jpg);
+    background-attachment:fixed;
+    position:relative;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 15%;
+    color: rgb(52, 0, 32);
+    flex-direction: column;
+}
+
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1; 
+}
+
+
+.styled-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    transform: translate(-50%, -50%);
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.499); /* Semi-transparent black overlay */
+    z-index: 1; /* Places overlay above the video */
+}
+
+
+.fade {
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+    transform: translate(0px, 10px);
+    z-index: 1;
+    pointer-events: none;
+}
+.top {
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    transform: translate(0px, -30px);
+    z-index: 1;
+    pointer-events: none;
+}
+
+.hero-page{
+    background-color: #f4a87962;
+    border-radius: 0.8rem;
+    box-shadow: 0 5px 10px rgba(65, 0, 37, 0.786);
+    width: 18rem;
+    padding: 1.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.todo-ph{
+    border-radius: 1rem;
+    width: 18rem;
+    box-shadow: 0px 0px 9px rgb(65, 0, 37);
+
+}
+.left{
+    float: left;
+    width: 65%;
+    font-size: 0.7rem;
+}
+.totoimg{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    width: 4rem;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+
+}
+.hidden-content {
+    display: none;
+}
+
+p.left {
+    transition: transform 0.5s ease; 
+}
+
+.viewMoreBtn i {
+    transition: transform 0.8s ease; 
+}
+
+.view-more{
+    cursor: pointer;
+}
+h4{
+    display: flex;
+    font-size: 0.5rem;
+    margin-left: 13rem;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    width: 30%;
+}
+.totoimg{
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+
+.hero-page-last{
+    background-color: #f4a87962;
+    border-radius: 0.8rem;
+    box-shadow: 0 5px 10px rgba(65, 0, 37, 0.786);
+    width: 18rem;
+    padding: 1.3rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
