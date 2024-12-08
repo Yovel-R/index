@@ -127,5 +127,32 @@ h4{
     width: 18rem;
     padding: 1.3rem;
     margin-top: 1rem;
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
+}
+.floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff33;
+    color: white;
+    border: none;
+    border-radius: 3rem;
+    padding: 15px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+    backdrop-filter: blur(2px);
+    z-index: 1111;
+}
+
+.floating-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+.position{
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
+    font-size: 1rem;
 }
