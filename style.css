@@ -131,28 +131,31 @@ h4{
 }
 .floating-btn {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 0px;
+    right: 0px;
     background-color: #007bff33;
     color: white;
     border: none;
-    border-radius: 3rem;
+    border-top-left-radius: 1rem;
     padding: 15px;
     font-size: 0.8rem;
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: all 0.3s;
+    box-shadow: 0px 0px 10px 5px #007bff33;
     backdrop-filter: blur(2px);
     z-index: 1111;
 }
 
 .floating-btn:hover {
+    
     background-color: #0056b3;
     transform: scale(1.1);
 }
 .position{
     position: fixed;
-    bottom: 60px;
-    right: 10px;
-    font-size: 1rem;
+    bottom: 40px;
+    right: 8px;
+    font-size: 0.7rem;
+    z-index: 1113;
 }
