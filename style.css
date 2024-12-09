@@ -133,7 +133,7 @@ h4{
     position: fixed;
     bottom: 0px;
     right: 0px;
-    background-color: #007bff33;
+    background-color: #007bff55;
     color: white;
     border: none;
     border-top-left-radius: 1rem;
@@ -142,7 +142,7 @@ h4{
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: all 0.3s;
-    box-shadow: 0px 0px 10px 5px #007bff33;
+    /* box-shadow: 0px 0px 10px 5px #007bff33; */
     backdrop-filter: blur(2px);
     z-index: 1111;
 }
@@ -156,6 +156,6 @@ h4{
     position: fixed;
     bottom: 40px;
     right: 8px;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     z-index: 1113;
 }
