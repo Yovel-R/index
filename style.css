@@ -133,29 +133,21 @@ h4{
     position: fixed;
     bottom: 0px;
     right: 0px;
-    background-color: #007bff26;
+    background-color: #ff00bb26;
     color: white;
     border: none;
     border-top-left-radius: 1rem;
     padding: 15px;
     font-size: 0.8rem;
     cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 4px 8px rgba(255, 0, 255, 0.5); */
     transition: all 0.3s;
-    /* box-shadow: 0px 0px 10px 5px #007bff33; */
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(3px);
     z-index: 1111;
 }
 
 .floating-btn:hover {
     
-    background-color: #0056b3;
+    background-color: #ff00bba2;
     transform: scale(1.1);
-}
-.position{
-    position: fixed;
-    bottom: 40px;
-    right: 0px;
-    font-size: 0.6rem;
-    z-index: 1113;
 }
